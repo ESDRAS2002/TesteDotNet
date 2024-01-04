@@ -6,7 +6,7 @@ namespace TesteDotNet.Business.Services
 {
     public class UsuarioService
     {
-        private readonly UsuarioContext _usuarioContext; // _ É UMA CLASSE DEPENDENDE QUE HERDOU READONLY = SÓ LEITURA
+        private readonly UsuarioContext _usuarioContext; // _ É UMA CLASSE DEPENDENDE QUE HERDOU READONLY = SÓ LEITURA 
 
         public UsuarioService(UsuarioContext usuarioContext)
         {
